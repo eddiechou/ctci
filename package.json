@@ -1,0 +1,26 @@
+{
+  "name": "ctci",
+  "version": "1.0.0",
+  "description": "ctci javascript with mocha/chai tests",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiechou/ctci.git"
+  },
+  "author": "Eddie Chou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddiechou/ctci/issues"
+  },
+  "homepage": "https://github.com/eddiechou/ctci#readme"
+}
