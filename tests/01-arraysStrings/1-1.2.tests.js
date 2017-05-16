@@ -1,7 +1,7 @@
 var assert = chai.assert;
 var expect = chai.expect;
 
-describe('[1.2]checkPermutation', function() {
+describe('[1.2] checkPermutation', function() {
   it('should return true for 2 strings where 1 is a permutation of another', function() {
     expect(isPermutation('abab', 'baba')).to.be.true;
   });
@@ -15,7 +15,7 @@ describe('[1.2]checkPermutation', function() {
   })
 });
 
-describe('[1.2]getLetterCounts', function() {
+describe('[1.2 helper] getLetterCounts', function() {
   it('should return the character counts for a string that has length', function() {
     expect(getLetterCounts('abab')).to.eql({a: 2, b: 2});
   });
