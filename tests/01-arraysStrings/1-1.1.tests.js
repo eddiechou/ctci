@@ -1,7 +1,7 @@
 var assert = chai.assert;
 var expect = chai.expect;
 
-describe('isUnique', function() {
+describe('[1.1]isUnique', function() {
   it('should return true for string with all unique characters', function() {
     expect(isUnique('world')).to.be.true;
   });
@@ -11,7 +11,7 @@ describe('isUnique', function() {
   });
 });
 
-describe('isUniqueSlow', function() {
+describe('[1.1]isUniqueSlow', function() {
   it('should return true for string with all unique characters', function() {
     expect(isUniqueSlow('world')).to.be.true;
   });
