@@ -7,7 +7,10 @@ describe('[2.2] kthLast', function() {
     var two = new Node(2);
     var three = new Node(3);
     var two2 = new Node(2);
-    
-    expect(kthToLast(head, 1)).to.equal(three);
+
+    head.next = two;
+    two.next = three;
+    three.next = two2;
+    expect(kthToLast(head, 1)).to.eql(two2);
   });
 });
